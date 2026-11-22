@@ -1,0 +1,29 @@
+# Raw data: football-data.co.uk and scraped Transfermarkt files are not ours to republish
+data/
+data
+pipeline/fd/
+pipeline/fd2/
+pipeline/fd3/
+pipeline/tm/
+pipeline/tm2/
+
+# Derived working files and snapshots
+pipeline/work/
+archive/
+*.pkl
+*.npy
+*.zip
+
+# Internal planning
+NEXT_PHASE_PLAN.md
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Duplicates of the files kept in pipeline/traps/
+pipeline/leak_check2.py
+pipeline/learn_checks.py
