@@ -1,9 +1,11 @@
 """Independent re-derivation of the headline numbers from the raw season files. Imports nothing from the project,
 uses no model: goals, handicap lines and simple averages. Closed doors is flagged by date alone (1 May 2020 to
-30 June 2021), which lets in some partial-crowd games and so, if anything, understates the drop."""
+30 June 2021), which lets in some partial-crowd games and so, if anything, understates the drop.
+fd/ and fd2/ hold some identical league-season files, so each file name is read once (fd/ first)."""
 import pandas as pd, numpy as np, glob, os
 rows = []
-for f in sorted(glob.glob('fd/*.csv') + glob.glob('fd2/*.csv')):
+fd1 = sorted(glob.glob('fd/*.csv')); seen = {os.path.basename(f) for f in fd1}
+for f in fd1 + sorted(f for f in glob.glob('fd2/*.csv') if os.path.basename(f) not in seen):
     lg, code = os.path.basename(f)[:-9], os.path.basename(f)[-8:-4]; sea = 2000 + int(code[:2])
     if sea < 2015: continue
     try: d = pd.read_csv(f, encoding='latin1', on_bad_lines='skip')

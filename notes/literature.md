@@ -1,44 +1,64 @@
-# Literature review: fans, noise, home advantage and betting markets
+# Related literature
 
-Compiled 16 Nov 2026. Grouped by what each paper answers. "Gap" notes are our angle.
+One reference list for the project. It merges two earlier working notes (a literature review and a comparison with three pricing papers), which remain in the repository history.
 
-## 1. Crowd noise and referees (the mechanism)
-- **Nevill, Balmer & Williams (2002), Psychology of Sport & Exercise 3(4).** 40 qualified referees watched the same match (Liverpool v Leicester) with or without crowd noise. Noise made them favour the home team.
-- **Unkelbach & Memmert (2010), Journal of Sport & Exercise Psychology 32(4).** Video of 56 games with recorded crowd reactions to fouls. Argue crowd noise is a genuine cue for how bad a foul is, so referees use it, and a partisan crowd produces home bias. Effect grows with crowd size and density.
-- **Pettersson-Lidbom & Priks (2010), Economics Letters 108(2).** Natural experiment: after hooligan violence in Feb 2007 Italy forced 25 games behind closed doors. Referees punished away players more and home players less when fans were present.
-- **Myers & Balmer (2012), Frontiers in Psychology.** Muay Thai judges with noise-cancelling headphones. Same idea outside football.
+**Verification status.** The summaries below come from working notes compiled on 16 November 2026. Citation details (journals, years, volumes) and the reported findings have not been re-checked against the sources for this version. The status column says what is known. Treat the summaries as pointers, not quotations.
 
-## 2. Covid ghost games and home advantage
-- **Bryson, Dolton, Reade, Schreyer & Singleton (2021), Economics Letters 198.** 2019/20 ghost games across several countries. Large, significant drop in yellow cards without a crowd.
-- **Reade, Schreyer & Singleton (2022), Economic Inquiry.** 160 pre-Covid closed-door matches (2002 to 2020) against 33,000+ others. Without a crowd referees booked visiting players over a third of a yellow card less per match. Overall home advantage fell but not significantly.
-- **Wunderlich, Weigelt, Rein & Memmert (2021), PLoS ONE.** 40,000+ matches, 1,000+ ghost games. Referee bias fell and home shot dominance fell, but the home advantage itself fell only non-significantly. Conclude crowds are not the main driver.
-- **Sors, Grassi, Agostini & Murgia (2022), PeerJ.** Whole 2020/21 season, first and second divisions of the big five. Points-based home advantage 54.95% vs 59.36% with fans. Referee bias disappeared. A slight home advantage remained (travel, familiarity).
-- **Leitner & Richlan (2021), Frontiers in Sports and Active Living.** 1,286 matches, eight leagues. Home teams booked more for fouls in ghost games.
-- **Schank (2024), arXiv 2411.12509.** Bundesliga during and after Covid. Home advantage in 2020/21 close to 2018/19, so teams adapted to empty stadiums.
-- **Systematic review (2023), Management Review Quarterly 73(2).** 26 studies. Ghost games cut home advantage, mainly through reduced referee bias. Notes inconsistencies across studies.
-- **NFL (Szabó & Pérez Ruiz 2021, arXiv 2104.11595).** No fans: home teams slightly worse than visitors. Limited fans: home performance no longer different from full stadiums. A small crowd restores most of the effect.
+## 1. Crowds, noise and referees
 
-## 3. Betting markets and ghost games (closest to Starlizard)
-- **Deutscher, Winkelmann & Ötting (2021), Applied Economics 53(26).** Bundesliga restart spring 2020. Bookmakers failed to adjust odds for the lost home advantage. Profitable strategies existed.
-- **Meier, Flepp & Franck (2021), International Journal of Sport Finance 16(3).** Top European leagues. Bookmakers and exchanges overestimated home win probability early in the ghost games, so markets were not semi-strong efficient for a while. Driven by the Bundesliga. Profitable for over a month.
-- **German professional football study (2021/22), "COVID-19, home advantage in professional soccer, and betting market efficiency".** Home advantage fell then recovered over time. Odds did not reflect either the drop or the recovery properly. Slow or no adaptation to new results.
+| Citation | Question | Sample | Measure | Reported finding | Relation to project | Status |
+|---|---|---|---|---|---|---|
+| Nevill, Balmer and Williams (2002), *Psychology of Sport and Exercise* 3(4) | Does crowd noise affect referees? | 40 qualified referees, one recorded match | Foul decisions with and without sound | Noise made referees favour the home side | Mechanism background | Not re-checked |
+| Unkelbach and Memmert (2010), *Journal of Sport and Exercise Psychology* 32(4) | Is crowd noise a cue for foul severity? | Video of 56 matches | Card decisions | Referees use crowd noise as a cue. Effect grows with crowd size and density | Motivates gate-size tests (Results 4, 12, 19) | Not re-checked |
+| Pettersson-Lidbom and Priks (2010), *Economics Letters* 108(2) | Referee behaviour without crowds | 25 Italian matches behind closed doors, 2007 | Fouls, cards | Referees punished away players more with fans present | Pre-Covid closed-door evidence | Not re-checked |
+| Myers and Balmer (2012), *Frontiers in Psychology* | Crowd noise in judged sport | Muay Thai judges | Scoring with and without noise | Same direction outside football | Background | Not re-checked |
 
-## 4. Noise measurement
-- **Osses, Ackermans, Nuijens & Scholte (2026), arXiv 2607.18922.** Loudest-stadium claims rest on single-point peak readings that are not comparable. Proposes a standard, spatially distributed method.
-- Only public ground-level data: FanChants terrace averages (2011) and Press Association smartphone readings (Nov 2014). Crude.
+## 2. Closed-door matches and home advantage
 
-## Starlizard people (LinkedIn, 16 Nov 2026)
-Searched LinkedIn people and posts. Visible: Head of Football, CTO, Head of Integrity Services, recruiter, a former data science and football researcher, an ML specialist. No published papers found linked to Starlizard staff. The firm is secretive and publishes little. Its homepage questions are the best signal of what it values.
+| Citation | Question | Sample | Measure | Reported finding | Relation to project | Status |
+|---|---|---|---|---|---|---|
+| Bryson, Dolton, Reade, Schreyer and Singleton (2021), *Economics Letters* 198 | Cards without crowds | 2019/20 closed-door matches, several countries | Yellow cards | Large drop in yellow cards without a crowd | Consistent with Results 1 and 20 | Not re-checked |
+| Reade, Schreyer and Singleton (2022), *Economic Inquiry* | Pre-Covid closed-door matches | 160 matches 2002 to 2020 against 33,000+ | Cards, results | About a third of a yellow card less for visitors. Home advantage fell, not significantly | Background | Not re-checked |
+| Wunderlich, Weigelt, Rein and Memmert (2021), *PLoS ONE* | Ghost games and home advantage | 40,000+ matches, 1,000+ without crowds | Referee bias, shots, results | Referee bias and home shot dominance fell. Home advantage fell non-significantly | Compare Results 11 and 20 | Not re-checked |
+| Sors, Grassi, Agostini and Murgia (2022), *PeerJ* | Full 2020/21 season | Top two divisions, big five leagues | Points share | 54.95% against 59.36% with fans. Referee bias disappeared | Compare Result 11 | Not re-checked |
+| Leitner and Richlan (2021), *Frontiers in Sports and Active Living* | Fouls and cards | 1,286 matches, eight leagues | Fouls, cards | Home teams booked more for fouls without crowds | Compare Result 1 | Not re-checked |
+| Schank (2024), arXiv 2411.12509 | Adaptation to empty stadiums | Bundesliga | Home advantage by season | 2020/21 close to 2018/19, suggesting adaptation | Possible reason results drifted back (Result 14) | Not re-checked |
+| Systematic review (2023), *Management Review Quarterly* 73(2) | Synthesis | 26 studies | Various | Closed doors cut home advantage, mainly through referee bias. Inconsistencies noted | Background | Authors not recorded in the notes |
+| Szabó and Pérez Ruiz (2021), arXiv 2104.11595 | NFL with no or limited fans | NFL 2020 | Results | Small crowds restored most of the effect | Compare Result 19 | Not re-checked |
 
-## Gaps we can fill (our angle)
-1. **Most market studies stop at the spring 2020 restart, mainly in the Bundesliga.** Less is known about the full 2020/21 season in England, and almost nothing about **the return of fans in 2021/22**: did the market put home advantage back too fast or too slow?
-2. **Partial crowds in England.** December 2020 (2,000 fans by local Covid tier, set by government not team quality) and May 2021 (up to 10,000). Small, but close to random. The NFL result suggests a small crowd restores most of the effect.
-3. **Dose-response in normal seasons, controlling for team strength with the market price.** Does a fuller ground or bigger crowd add anything the closing odds do not already price? That is a "crowd edge" question in Starlizard's own language.
-4. **Mechanism split.** How much of the crowd effect runs through the referee (fouls, cards) versus the scoreline itself.
+## 3. Betting markets and closed-door matches
 
+| Citation | Question | Sample | Measure | Reported finding | Relation to project | Status |
+|---|---|---|---|---|---|---|
+| Fischer and Haucap | Did odds reflect lost home advantage? | Germany, top two divisions, 164 closed-door matches (working paper) | Probit of win on implied probability | Odds missed it in the short run. Later version: short run only | One of three direct predecessors | Working paper read per notes. **Publication details inconsistent in the notes** (2021 *Journal of Sports Economics* in one, *Kyklos* 2022 in another). Not resolved |
+| Meier, Flepp and Franck (2021), *International Journal of Sport Finance* 16(3) | Market efficiency after the restart | Four top leagues to 2 August 2020, about 400 matches | Logit of win on implied probability over weekly windows | Home sides over-rated for about five weeks, Bundesliga only | Direct predecessor | Working paper read per notes. Not re-checked |
+| Hegarty and Whelan, "The Wisdom of No Crowds" (2022 working paper, *Journal of Prediction Markets* 2023) | Did the market adjust? | Four top leagues, 1,783 matches | Asian handicap line, recursive estimates | Market cut home advantage by about half at once and was right to discount early results | Size estimate agrees with Result 11. This project is a replication on more leagues | Working paper read per notes. Not re-checked |
+| Deutscher, Winkelmann and Ötting (2021), *Applied Economics* 53(26) | Bookmaker adjustment | Bundesliga restart, spring 2020 | Odds against results | Odds did not adjust. Profitable strategies existed | Background | Not re-checked |
+| "COVID-19, home advantage in professional soccer, and betting market efficiency" | Adjustment over a longer period | German professional football, 2021/22 | Odds against results | Home advantage fell then recovered. Odds did not track either well | Background | **Authors and venue not recorded.** Citation incomplete |
 
-## Added 16 Nov 2026 (after the pricing tests)
+How this project differs from the three direct predecessors, as recorded in the comparison notes:
 
-- Hegarty and Whelan, "The Wisdom of No Crowds". Reads the ghost period the other way from Fischer and Haucap (2022): on average the market adjusted well. Our Result 3 sits between the two. No shortfall at the June 2020 restart, a shortfall in 2020/21 concentrated in the Premier League.
-- Fischer and Haucap (2021, Journal of Sports Economics). The drop in home advantage without crowds was bigger where normal occupancy was higher. Our H5 test of this against prices (did a bigger usual crowd mean a bigger pricing shortfall?) was null.
-- Own finding to remember when reading any attendance paper: attendance measured against a season average leaks results, because gates follow results. See results/FINDINGS.md, Result 4.
+| | Fischer and Haucap | Meier, Flepp and Franck | Hegarty and Whelan | This project |
+|---|---|---|---|---|
+| Leagues | Germany, two divisions | Four top divisions | Same four | 18 (29 for the dose curve) |
+| Price | Closing 1X2, one bookmaker | Average of six bookmakers, two exchanges | Asian handicap line | Pinnacle open and close, best price, exchange from 2024 |
+| Team strength | Covariates | Implied probability | Ratings | The closing price, as an ordered probit |
+| Pooling | Each division separately | League fixed effects | League intercepts | Hierarchical across leagues |
+| Repeated looks | Not addressed | Not addressed | Recursive estimates, not addressed | Simulated false-alarm rate and an anytime-valid test |
+| Closures after June 2021 | No | No | No | Yes (2021/22 and 2023/24) |
+| Placebo on normal seasons | No | No | No | 12 seasons |
+
+This comparison rests on the three papers only. It is not a systematic search, so it does not show that no other work covers these points.
+
+## 4. VAR
+
+Result 18 refers to two studies cited in the working notes: a 2025 staggered difference-in-differences study across 41 leagues finding that VAR reduced home advantage, and a 2024 meta-analysis finding no reduction. **Authors and titles were not recorded.** Both need full citations before they are relied on. No study of whether betting markets priced VAR was found in the sources consulted, but no systematic search was made.
+
+## 5. Noise measurement
+
+| Citation | Reported content | Status |
+|---|---|---|
+| Osses, Ackermans, Nuijens and Scholte (2026), arXiv 2607.18922 | Loudest-stadium claims rest on single-point peak readings that are not comparable. Proposes a spatially distributed method | Not re-checked |
+| FanChants terrace averages (2011), Press Association smartphone readings (2014) | One-off ground-level surveys, not match-level | Not re-checked |
+
+The working notes found no public match-level noise dataset. That statement reflects the sources searched at the time, not an exhaustive search.
