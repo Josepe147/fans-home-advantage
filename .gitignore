@@ -27,3 +27,7 @@ Thumbs.db
 # Duplicates of the files kept in pipeline/traps/
 pipeline/leak_check2.py
 pipeline/learn_checks.py
+
+# Local handoff files, never publish
+IMPLEMENTATION_REPORT.md
+repository_implementation_handoff.docx
